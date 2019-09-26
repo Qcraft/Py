@@ -5,6 +5,7 @@ number = 0
 array = []
 
 while number != "done":
+
 	array.append(float(number))
 
 	number = input()
