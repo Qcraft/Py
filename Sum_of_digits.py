@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 value = input()
 
 value1 = 0
