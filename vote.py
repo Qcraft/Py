@@ -2,7 +2,19 @@
 
 age = int(input('enter your age '))
 
-if age > 18:
-	print('you can vote')
+if age < 3:
+	print('baby')
+elif age < 10:
+	print('child')
+elif age > 100:
+	print('dead')
+
+citizen = input('are you a citizen? ')
+
+if citizen == 'yes':
+	if age > 18:
+		print('you can vote')
+	else:
+		print('you can not vote')
 else:
-	print('you can not vote')
+	print('ypu can not vote')
