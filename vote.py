@@ -2,7 +2,7 @@
 
 citizen = input('are you a citizen? ')
 
-if citizen == 'yes':
+if citizen.lower()  == 'yes':
 
 	age = int(input('enter your age '))
 
