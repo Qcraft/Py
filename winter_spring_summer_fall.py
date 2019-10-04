@@ -1,12 +1,17 @@
 #!/usr/bin/python3
 
-x = input().lower()
+month = input().lower()
 
-if x == 'dec' or x == 'jan' or x == 'feb':
+winter = ['dec', 'jan', 'feb']
+spring = ['mar', 'apr', 'may']
+summer = ['jun', 'jul', 'aug']
+fall = ['sep', 'oct', 'nov']
+
+if month in winter:
 	print('winter')
-elif x == 'mar' or x == 'apr' or x == 'may':
+elif month in spring:
 	print('spring')
-elif x == 'jun' or x == 'jul' or x == 'aug':
+elif month in summer:
 	print('summer')
-elif x == 'sep' or x == 'oct' or x == 'nov':
+elif month in fall:
 	print('fall')
