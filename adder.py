@@ -2,7 +2,6 @@
 
 temp = 0
 sum = 0
-done = ' '
 
 while True:
 	temp = input()
